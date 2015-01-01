@@ -1,0 +1,211 @@
+
+body{ margin:0px; background:#FFFFFF; background-color: #FFF; font-family:Arial, Helvetica, sans-serif; }
+p
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:13px; 
+	 color: #595959;  
+	 text-align:justify;
+	 line-height:16px;
+	 text-decoration:none;
+}
+
+a{ outline:0px; }
+form{ padding:0px; margin:0px; }
+	
+#wrapper{ width:100%; margin:auto; background-image:url(images/toplimks-back.jpg); background-repeat:repeat-x; padding:0px 0px 0px 0px; }
+#header{ height:138px; width:900px; margin:auto; }
+#content{ width:900px; margin:auto;}
+#footer{ height:84px; background-image:url(images/bottom-back.jpg); background-repeat: repeat-x; }
+#box{ width:188px; padding:10px 10px 10px 10px; }
+
+	
+.search
+{ 
+     width:105px;
+	 height:18px;
+	 border:1px #8BB700 solid;
+	 background-color:#FBFFEE;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-weight:normal;
+	 font-size:10px;
+	 padding-left:5px;
+}
+
+.text
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:13px; 
+	 color: #595959;  
+	 text-align:justify;
+	 line-height:16px;
+	 text-decoration:none;
+}
+
+.boxtext
+{ 
+     font-family:Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:11px; 
+	 color: #595959;  
+	 text-align:left;
+	 line-height:14px;
+	 text-decoration:none;
+}
+
+.boxtext2
+{ 
+     font-family:Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:11px; 
+	 color: #000000;  
+	 text-align:justify;
+	 line-height:14px;
+	 text-decoration:none;
+}
+
+.producttext
+{ 
+     font-family:Arial, Helvetica, sans-serif; 
+	 font-weight: bold; 
+	 font-size:15px; 
+	 color: #000000;  
+	 text-align: left;
+	 line-height:20px;
+	 text-decoration:none;
+}
+
+.charttext
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: bold;
+	 font-size:13px; 
+	 color: #2A292A;  
+	 text-align:justify;
+	 line-height:17px;
+	 text-decoration: none;
+}
+
+
+.greentext
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:12px; 
+	 color:#3EAC49;  
+	 text-align: center;
+	 text-decoration:none;
+}
+
+.blacktext
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: bold; 
+	 font-size:13px; 
+	 color: #000000;  
+	 text-align: left;
+	 text-decoration:none;
+}
+
+.blacktext a
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: bold; 
+	 font-size:13px; 
+	 color: #000000;  
+	 text-align: left;
+	 text-decoration:none;
+}
+
+.blacktext a:hover
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: bold; 
+	 font-size:13px; 
+	 color: #000000;  
+	 text-align: left;
+	 text-decoration: underline;
+}
+
+
+
+
+.bottomlinks
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:10px; 
+	 color: #01AAEB;
+	 text-transform: uppercase;
+	 text-align: left;
+	 text-decoration:none;
+}
+
+.bottomlinks a
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:10px; 
+	 color: #01AAEB;
+	 text-transform: uppercase;
+	 text-align: left;
+	 text-decoration:none;
+}
+
+.bottomlinks a:hover
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:10px; 
+	 color: #01AAEB;
+	 text-transform: uppercase;
+	 text-align: left;
+	 text-decoration: underline;
+}
+
+.bottomtext
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:11px; 
+	 color: #5D5D5D;
+	 text-transform: capitalize;
+	 text-align: left;
+	 text-decoration:none;
+}
+
+.more
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:11px; 
+	 color:#01AAEB;  
+	 text-align: right;
+	 text-decoration:none;
+}
+
+.more a
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:11px; 
+	 color:#01AAEB;   
+	 text-align: right;
+	 text-decoration:none;
+}
+
+.more a:hover
+{ 
+     font-family: Arial, Helvetica, sans-serif; 
+	 font-weight: normal; 
+	 font-size:11px; 
+	 color:#01AAEB;  
+	 text-align: right;
+	 text-decoration: underline;
+}
+
+h1{ font-size:26px; color:#70A200; text-transform:uppercase; margin:0px; padding:0px; }
+h2{ font-size:18px; color:#70A200; text-transform:uppercase; margin:0px; padding:3px 0px 0px 2px; }
+		 

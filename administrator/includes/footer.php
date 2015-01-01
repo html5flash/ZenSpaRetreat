@@ -1,0 +1,1 @@
+<div id="footer"><?php echo stripslashes($site_settings_disp->footer_txt); ?></div>
