@@ -1,0 +1,75 @@
+Hello,
+
+We have a flash based website and we need to make some changes to it. This is the site: www.zensparetreat.com
+
+The changes we need are the following:
+
+- Add "s" to the Spa treatment menu item (i.e. Spa Treatment"s")
+- Remove "skin boosters" from menu and also unpublish the skin booster treatments page. Also, remove the skin booster options from the gift certificate and online appointment webforms.
+- On the facial skin therapies page, remove the Addons. These addons also need to be removed from the Gift certificate and online appointment webforms. Also, add the following treatments below the Deep clean treatment:
+
+Moisture Up Intensive Hydrating Booster to plump skin cells with extra moisture. AHA Peel included. 55 min. $165
+
+Firm Up Intensive Collagen Firming Booster to increase skin's elasticity and firmness. AHA Peel included. 55 min. $165
+
+SPECIAL NEEDS:
+
+Glyco Peel AHA Brightening Facial Peel $55
+
+Eye S.O.S. Anti-Aging Eye Contour Treatment $55
+
+Eye Depuff Anti-Puffiness and Dark Circles Eye Treatment $65
+
+Neck Lift Lifting and Revitalizing Neck Treatment $75 
+
+Those treatments also need to be added to the gift certificate and online appointment webforms.
+
+The gift certificate webform is tied to the e-commerce so that when a user fills out the certificate information and submits the credit card info, they are charged. Therefore, these new products that we are adding to the certificate webform need to obviously be properly tied into the e-commerce so that they can be purchased and the user can be charged the correct prices.
+
+==============================================================
+
+Hello,
+
+Here is some information you'll be needing:
+
+The FTP credentials are:
+
+FTP Username: rajesh@zen-spa.com
+Password: rajesh
+FTP Server: ftp.zen-spa.com
+
+To login as admin, use these credentials:
+
+http://www.zensparetreat.com/administrator
+Authentications :
+Username : admin
+Password : %rs@10%ap*q
+
+In order to grant you access to the database, I need the IP address from where you will access it so that I can whitelist it.
+
+If you need anything else, please let me know.
+
+Thanks
+
+==============================================================
+
+Hello,
+
+Ok, so using your installation of phpMyadmin, these are the credentials you'll need to use:
+
+1. MySql Host = zensparetreat.com
+2. Port = 3306
+3. user_name: zenspaco_retreat
+4. pw: tgbs33r!
+
+IMPORTANT: This is the production database. Please make sure that any changes you make do NOT interfere with the site's current functionality. Also, please make a backup prior to making any updates.
+
+Please let me know if you're able to connect.
+
+Thank you.
+
+==============================================================
+
+Yes, as long as the directory where you'll be testing is hidden from search engines....
+
+==============================================================

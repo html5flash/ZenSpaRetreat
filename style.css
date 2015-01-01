@@ -1,0 +1,102 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+background-color: #555555;
+margin:0px 0px 0px 0px;
+}
+
+.show {
+display:true;
+}
+
+.hide{
+display:none;
+}
+
+.footertext{
+font-size:14px;
+color: #000000;
+font-family:Arial, Helvetica, sans-serif;
+text-align:center;
+}
+
+.bigtext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#000000;
+font-weight:bold;
+text-decoration:none;
+}
+
+.greentext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#767A1C;
+font-weight:bold;
+text-decoration:none;
+}
+
+.boldtext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+font-weight:bold;
+text-decoration:none;
+}
+
+.orangetext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#c56100;
+font-weight:bold;
+text-decoration:none;
+}
+
+.form{
+background-image:url(images/form_34.gif);
+background-repeat:no-repeat;
+border:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+width:280px;
+height:24px;
+padding-left:2px;
+}
+
+.form2{
+background-image:url(images/form-field_38.gif);
+background-repeat:no-repeat;
+border:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+width:280px;
+height:77px;
+padding-left:2px;
+}
+
+a.linktext:link{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#e4d5a4;
+font-weight:bold;
+text-decoration:none;
+font-style:italic;
+}
+a.linktext:Hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#e4d5a4;
+font-weight:bold;
+text-decoration:underline;
+font-style:italic;
+}
+a.linktext:Visited{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#e4d5a4;
+font-weight:bold;
+text-decoration:none;
+font-style:italic;
+}
