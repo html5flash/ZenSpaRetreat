@@ -250,9 +250,15 @@ to contact us and we will be happy to assist.<br><br>Below are your order detail
 				$headers = "From: " . strip_tags($from) . "\r\n";
 				$headers .= "MIME-Version: 1.0\r\n";
 				$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-				$ok=mail($to,$subject,$msg1.$msg.$msg2,$headers);
-			
+				
+				$ok=mail($to,$subject,$msg1.$msg.$msg2,$headers);			
 				$ok=mail($admin_to,"Customer Order at Zensparetreat.com ", $msg3.$msg.$msg2,$headers);
+								
+				//testing 
+				$testEmail = "singh_gopal1981@yahoo.com";
+				$ok=mail($testEmail,'Client:'.$subject,$msg1.$msg.$msg2,$headers);
+				$ok=mail($testEmail,'Admin:'."Customer Order at Zensparetreat.com ", $msg3.$msg.$msg2,$headers);
+				
 				$res2=orderClass::OrderDelete($_SESSION['oid']);
 				$_SESSION['oid']='';
 				$_SESSION['orderid']='';

@@ -147,6 +147,7 @@ to contact us and we will be happy to assist.Below are your order details.</td><
 			}
 			else if($result->g_package!="")
 			{
+				$price=$result->g_price;
 			     $msg= $msg."<tr><td> ".$result->g_package." Package : </td><td  align='right'>$".$result->g_price."</td></tr>";
 				 $msg= $msg.'<tr><td width="100%" colspan="2" height="10px"></td></tr>';
 			}
@@ -239,10 +240,18 @@ to contact us and we will be happy to assist.Below are your order details.</td><
 					$headers = "From: " . strip_tags($from) . "\r\n";
 					$headers .= "MIME-Version: 1.0\r\n";
 					$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+					
+					//sending email to client
 					$ok=mail($to,$subject,$msg1.$msg.$msg2,$headers);
-					 //$ok=mail('michelle@zensparetreat.com,meloenvias@gmail.com',"Customer Gift Certificate Order at Zensparetreat.com", $msg3.$msg.$msg2,$headers);
-					 $ok=mail('michelle@zen-spa.com,meloenvias@gmail.com',"Customer Gift Certificate Order at Zensparetreat.com", $msg3.$msg.$msg2,$headers);
-					 
+						
+					//sending email to admin
+					$ok=mail('michelle@zen-spa.com,meloenvias@gmail.com',"Customer Gift Certificate Order at Zensparetreat.com", $msg3.$msg.$msg2,$headers);
+					
+					//testing 
+					$testEmail = "singh_gopal1981@yahoo.com";
+					$ok=mail($testEmail,'Client:'.$subject,$msg1.$msg.$msg2,$headers);
+					$ok=mail($testEmail,"Admin:Customer Gift Certificate Order at Zensparetreat.com", $msg3.$msg.$msg2,$headers);
+					
 					//echo $ok=mail('vijayalakshmivulli@gmail.com',"Customer Gift Certificate Order at Zensparetreat.com", $msg3.$msg.$msg2,$headers);
 					// $ok=mail($from,"Customer Gift Certificate Order at Zensparetreat.com", $msg3.$msg.$msg2,$headers);
 					$res2=orderClass::OrderDelete($_SESSION['oid']);
