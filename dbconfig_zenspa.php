@@ -1,9 +1,9 @@
 <?php 
 error_reporting(0);
 define(HOSTNAME,"localhost");
-define(USERNAME,"gopalsin_zenspac");
-define(PASSWORD,"p-4,I[KsJ)!J");
-define(DBNAME,  "gopalsin_zenspaco_retreat");
+define(USERNAME,"zenspaco_retreat");
+define(PASSWORD,"tgbs33r!");
+define(DBNAME,  "zenspaco_retreat");
 
 
 ###################################################################
